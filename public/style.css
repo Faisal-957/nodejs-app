@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f7f5;
-    color: #172b24;
+    background: #0b1120;
+    color: #f1f5f9;
 }
 
 .navbar {
@@ -16,7 +16,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 10%;
-    background: white;
+    background: #111827;
+    border-bottom: 1px solid #263247;
 }
 
 .navbar h2 {
@@ -24,12 +25,12 @@ body {
 }
 
 .navbar h2 span {
-    color: #16a36a;
+    color: #a78bfa;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #172b24;
+    color: #f1f5f9;
     font-weight: bold;
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 .tag {
-    color: #16a36a;
+    color: #a78bfa;
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 20px;
@@ -60,11 +61,11 @@ body {
 }
 
 .content h1 span {
-    color: #16a36a;
+    color: #a78bfa;
 }
 
 .description {
-    color: #66756d;
+    color: #94a3b8;
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 30px;
@@ -77,31 +78,37 @@ body {
 }
 
 .btn {
-    background: #16a36a;
+    background: #7c3aed;
     color: white;
     text-decoration: none;
     padding: 14px 24px;
     border-radius: 8px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background: #108453;
+    background: #6d28d9;
 }
 
 .secondary {
-    background: white;
-    color: #16a36a;
-    border: 1px solid #16a36a;
+    background: transparent;
+    color: #c4b5fd;
+    border: 1px solid #7c3aed;
+}
+
+.secondary:hover {
+    background: #1e1b4b;
 }
 
 .card {
-    background: white;
+    background: #111827;
     padding: 45px 35px;
     border-radius: 18px;
     text-align: center;
     width: 320px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.07);
+    border: 1px solid #263247;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
 }
 
 .icon {
@@ -111,16 +118,17 @@ body {
 
 .card h2 {
     margin-bottom: 15px;
+    color: #f8fafc;
 }
 
 .card p {
-    color: #718078;
+    color: #94a3b8;
     line-height: 1.6;
 }
 
 .status {
     margin-top: 25px;
-    color: #16a36a;
+    color: #a78bfa;
     font-weight: bold;
 }
 
@@ -128,7 +136,7 @@ body {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: #16a36a;
+    background: #a78bfa;
     border-radius: 50%;
     margin-right: 7px;
 }
@@ -136,8 +144,9 @@ body {
 footer {
     text-align: center;
     padding: 25px;
-    color: #718078;
-    background: white;
+    color: #94a3b8;
+    background: #111827;
+    border-top: 1px solid #263247;
 }
 
 @media (max-width: 768px) {
